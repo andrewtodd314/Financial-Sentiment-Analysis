@@ -9,7 +9,6 @@
 import requests
 import pandas as pd
 import re
-import nltk
 import numpy as np
 import torch
 import transformers as ppb
