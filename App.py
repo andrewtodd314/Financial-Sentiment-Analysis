@@ -9,6 +9,7 @@
 import requests
 import pandas as pd
 import re
+import nltk
 import numpy as np
 import torch
 import transformers as ppb
@@ -114,7 +115,6 @@ X_embeddings = get_cls_embeddings([User_input], batch_size=4)
 
 
 # Loading model
-os.chdir('C:/Users/xeb15154/OneDrive - University of Strathclyde/Financial Sentiment Analysis Project/')
 with open("model_text.pkl", "rb") as f:
     model_text = pickle.load(f)
 
