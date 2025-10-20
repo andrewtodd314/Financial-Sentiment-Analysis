@@ -1,2 +1,3 @@
 # Financial-Sentiment-Analysis
-Creating scripts to push to Streamlit that will create a financial sentiment sentence classifier
+Building a financial sentiment classifier using FinBERT that classifys earnings conference call sentences. The model is a deep learning-enabled sentiment classifier trained on corporate earnings calls using a subset of S&P 100 constituents. The training dataset contains 2,106 manually classified and verified sentences taken from my larger PhD dataset which contains 637,220 sentences from 4,860 earnings calls. In this project I create a text based classifier that is embedded within a gradio interface to allow users to enter financial sentences to assess whether they are positive, negative or neutral in relation to performance.
+  
